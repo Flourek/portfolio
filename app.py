@@ -9,7 +9,7 @@ def hello():
 
 @app.route('/licencjat')
 def sus():
-    return "LO"
+    return "The big amogus brigijk iroeaerg f. "  
 
 if __name__ == '__main__':
     app.run()
