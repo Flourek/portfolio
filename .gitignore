@@ -1,0 +1,49 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environment files
+.env
+*.env
+.venv/
+venv/
+ENV/
+env/
+
+# Flask-related
+instance/
+*.db
+*.sqlite3
+
+# VS Code / IDEs
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker (if using)
+*.pid
+*.tar
+*.bak
+docker-compose.override.yml
+
+# Pytest cache
+.pytest_cache/
+.cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# Migrations (if using Flask-Migrate, optional)
+migrations/
+
+# Jupyter Notebooks (if you're mixing Flask with notebooks)
+.ipynb_checkpoints/
